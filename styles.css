@@ -16,19 +16,7 @@ body {
     height: 200px;
     border: 2px solid black;
     margin-bottom: 20px;
-}
-
-.triangle {
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 173.2px solid black;
-}
-
-.square {
-    width: 200px;
-    height: 200px;
+    display: none;
 }
 
 .circle {
@@ -37,15 +25,12 @@ body {
     border-radius: 50%;
 }
 
-.rectangle {
-    width: 300px;
+.square {
+    width: 200px;
     height: 200px;
 }
 
-.diamond {
-    width: 0;
-    height: 0;
-    border: 100px solid transparent;
-    border-bottom-color: black;
-    transform: rotate(45deg);
+.rectangle {
+    width: 300px;
+    height: 200px;
 }
